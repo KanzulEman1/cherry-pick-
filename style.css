@@ -45,3 +45,22 @@ p{
     font-size: 20px;
     padding-inline: 5px;
 }
+
+hr{
+    margin-inline: 100px;
+}
+section{
+    display: flex;
+    padding-inline: 100px;
+    padding-bottom: 72px;
+}
+section .blog-img{
+    padding-right: 100px;
+}
+.pfp{
+    display: flex;
+    height: 40px;
+}
+.pfp p{
+    margin: 8px;
+}
