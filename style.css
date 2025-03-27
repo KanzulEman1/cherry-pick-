@@ -71,23 +71,39 @@ section .blog-img{
 h3{
     font-weight: 400;
     font-size: 48px;
- }   
- .latest-news{
+}   
+.latest-news{
      padding-inline: 201px;
- }
- .news{
+    }
+.news{
      display: flex;
      justify-content: space-between;
      padding-bottom: 80px;
  }
- h6{
+h6{
      font-weight: 400;
      font-size: 20px;
      line-height: 32px;
- }
- .innerdiv-p{
+}
+.innerdiv-p{
      height: 95px;
- }
+}
  .innerdiv2{
      padding-inline:50px ;
- }
+}
+.load-btn{
+    padding-left: 590px;
+    padding-top: 25px;
+    padding-bottom: 125px;
+}
+.load-btn button{
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 56px;
+    border: 2px solid #0A2640;
+    color: #0A2640;
+    background: none;
+    padding-block: 16px;
+    padding-inline: 50px;
+}
+
