@@ -45,7 +45,11 @@ p{
     font-size: 20px;
     padding-inline: 5px;
 }
-
+h2{
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 72px;
+}
 hr{
     margin-inline: 100px;
 }
@@ -64,3 +68,26 @@ section .blog-img{
 .pfp p{
     margin: 8px;
 }
+h3{
+    font-weight: 400;
+    font-size: 48px;
+ }   
+ .latest-news{
+     padding-inline: 201px;
+ }
+ .news{
+     display: flex;
+     justify-content: space-between;
+     padding-bottom: 80px;
+ }
+ h6{
+     font-weight: 400;
+     font-size: 20px;
+     line-height: 32px;
+ }
+ .innerdiv-p{
+     height: 95px;
+ }
+ .innerdiv2{
+     padding-inline:50px ;
+ }
