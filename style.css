@@ -1,93 +1,255 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 
-body{  
+body {
     font-family: "Manrope", sans-serif;
     margin: 0;
     color: #0A2640;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
-    padding-inline: 100px ;
+    padding-inline: 100px;
     padding-top: 56px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #0A2640;
 }
-ul{
+
+ul {
     list-style-type: none;
     display: flex;
 }
-li{
+
+li {
     padding-left: 40px;
 }
-.login-button{
-     border-radius: 19px;
-     border: 2px solid #0A2640;
-     height: 30px;
-     width: 99px;
-     background:none;
-     cursor: pointer;
-     margin-left: 40px;
+
+.login-button {
+    border-radius: 19px;
+    border: 2px solid #0A2640;
+    height: 30px;
+    width: 99px;
+    background: none;
+    cursor: pointer;
+    margin-left: 40px;
 }
-.blog{
+
+.blog {
     text-align: center;
 }
-h1{
+
+h1 {
     font-weight: 400;
     font-size: 64px;
 }
-p{
+
+p {
     font-weight: 400;
     font-size: 20px;
     padding-inline: 5px;
 }
-h2{
+
+h2 {
     font-weight: 400;
     font-size: 44px;
     line-height: 72px;
 }
-hr{
+
+hr {
     margin-inline: 100px;
 }
-section{
+
+section {
     display: flex;
     padding-inline: 100px;
     padding-bottom: 72px;
 }
-section .blog-img{
+
+section .blog-img {
     padding-right: 100px;
 }
-.pfp{
+
+.pfp {
     display: flex;
     height: 40px;
 }
-.pfp p{
+
+.pfp p {
     margin: 8px;
 }
-h3{
+
+h3 {
     font-weight: 400;
     font-size: 48px;
- }   
- .latest-news{
-     padding-inline: 201px;
- }
- .news{
-     display: flex;
-     justify-content: space-between;
-     padding-bottom: 80px;
- }
- h6{
-     font-weight: 400;
-     font-size: 20px;
-     line-height: 32px;
- }
- .innerdiv-p{
-     height: 95px;
- }
- .innerdiv2{
-     padding-inline:50px ;
- }
+}
+
+.latest-news {
+    padding-inline: 201px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.innerdiv-p {
+    height: 95px;
+}
+
+.innerdiv2 {
+    padding-inline: 50px;
+}
+
+.load-btn {
+    padding-left: 590px;
+    padding-top: 25px;
+    padding-bottom: 125px;
+}
+
+.load-btn button {
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 56px;
+    border: 2px solid #0A2640;
+    color: #0A2640;
+    background: none;
+    padding-block: 16px;
+    padding-inline: 50px;
+}
+
+.button-section {
+    border-radius: 12px;
+    background-color: #0A2640;
+    color: white;
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.bg-img {
+    background-color: white;
+    padding-inline: 100px;
+    padding-bottom: 100px;
+}
+
+.heading-sec {
+    padding-block: 50px;
+    padding-inline: 245px;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.emailbtn {
+    display: flex;
+    align-items: center;
+}
+
+.startbtn {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.email {
+    font-size: 20px;
+    padding-left: 32px;
+    border-radius: 240px;
+    width: 350px;
+    height: 46px;
+    border: none;
+}
+
+.startbtn {
+    background-color: #65E4A3;
+    color: #0A2640;
+    border: none;
+    border-radius: 56px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 170px;
+    padding-block: 100px;
+}
+
+footer p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+    padding-right: 15px;
+    padding-bottom: 64px;
+    padding-top: 30px;
+}
+
+.reserved {
+    padding-top: 64px;
+    font-size: 16px;
+}
+
+.list-section {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.list-heading {
+    color: #000000;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+
+.list-section,
+li {
+    list-style: none;
+    font-size: 20px;
+    line-height: 32px;
+    color: #777777;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.list-section li p {
+    margin-bottom: 0%;
+}
+
+.list-section button {
+    margin: 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 20px;
+    background-color: #65E4A3;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.list1 {
+    padding-right: 50px;
+    padding-bottom: 18px;
+}
+
+>>>>>>>3725603 (footer)
