@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
+
 body{  
     font-family: "Manrope", sans-serif;
     margin: 0;
@@ -31,4 +32,16 @@ li{
      background:none;
      cursor: pointer;
      margin-left: 40px;
+}
+.blog{
+    text-align: center;
+}
+h1{
+    font-weight: 400;
+    font-size: 64px;
+}
+p{
+    font-weight: 400;
+    font-size: 20px;
+    padding-inline: 5px;
 }
